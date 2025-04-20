@@ -33,4 +33,7 @@ php artisan db:seed
 * 開発環境：[http://localhost/]  
 * phpMyAdmin:[http://localhost:8080]
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 142f161 (商品一覧(vew))
