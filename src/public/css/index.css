@@ -17,7 +17,6 @@
 .product__heading-title h2 {
     font-size: 24px;
     font-weight: bold;
-    
 }
 
 .add-button-submit {    
@@ -100,4 +99,50 @@
     display: flex;
     justify-content: space-between;
     padding: 5px 10px;
+}
+
+.form__select--text {
+    display: inline-block;
+    width: 100%;
+}
+
+.form__select--text select {
+    color: #8b7969;
+    background-color: #fff;
+}
+
+
+.select-wrap {
+    position: relative;
+    display: inline-block;
+    width: 40%;
+}
+
+.select-wrap option {
+    color: #8b7969;
+}
+
+.select-wrap::after {
+    content: "▼";
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: #8b7969;
+    font-size: 12px;
+}
+
+.select-wrap select,
+.select-wrap option {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 100%;
+    padding: 10px;
+    padding-right: 30px;
+    border: 1px solid #f8f6f6;
+    color: #8b7969;
+    background-color: #f8f6f6;
+    box-sizing: border-box;
 }
